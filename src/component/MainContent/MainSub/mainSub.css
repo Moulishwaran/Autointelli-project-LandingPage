@@ -1,0 +1,117 @@
+.MainSub {
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.MainSub-MainTitle {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.line {
+    background-color: #ff40b4;
+    width: 60%;
+    height: 0.1px;
+    position: relative;
+    right: 400px;
+    top: 50px;
+}
+
+.lines {
+    background-color: #ff40b4;
+    width: 60%;
+    height: 0.1px;
+    position: relative;
+    top: 150px;
+    right: 400px;
+}
+
+.content {
+    position: relative;
+    top: 120px;
+    right: 400px;
+    font-family: "Roboto", sans-serif;
+}
+
+.MainSub-RealTitle {
+    font-size: 18px;
+    position: relative;
+    bottom: 18px;
+}
+
+.MainSub-Correlate {
+    position: relative;
+    bottom: 1px;
+    line-height: 25px;
+}
+
+.orangeLine {
+    background-color: #ff8300;
+    width: 60%;
+    height: 1px;
+    position: relative;
+    bottom: 120px;
+    left: 250px;
+}
+
+.MainSub-contents {
+    position: relative;
+    bottom: 60px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 250px;
+}
+
+.MainSub-RealTitles {
+    font-size: 18px;
+}
+
+.MainSub-Correlates {
+    position: relative;
+    top: 15px;
+    line-height: 25px;
+
+}
+
+.orangeLines {
+    background-color: #ff8300;
+    width: 60%;
+    height: 1px;
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    left: 250px;
+}
+
+.MainSub-content1 {
+    position: relative;
+    top: 200px;
+    right: 400px;
+    font-family: "Roboto", sans-serif;
+}
+
+.MainSub-RealTitle1 {
+    font-size: 18px;
+}
+
+.MainSub-Correlate1 {
+    position: relative;
+    top: 5px;
+    line-height: 25px;
+}
+
+.MainSub-contents2 {
+    position: relative;
+    top: 55px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 250px;
+}
+
+.MainSub-RealTitles2 {
+    font-size: 18px;
+}
+
+.MainSub-Correlates2 {
+    position: relative;
+    top: 5px;
+    line-height: 25px;
+}
