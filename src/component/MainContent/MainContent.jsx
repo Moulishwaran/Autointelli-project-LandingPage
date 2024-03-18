@@ -38,57 +38,60 @@ const MainContent = () => {
 
   return (
     <>
-      <div className="mainContent">
+      <div className="LandingPage">
         <Blur
           img={BackgroundImage}
-          className="Main-bgImage"
+          className="LandingPage-bgImage"
           blurRadius={30}
         ></Blur>
-        <div className="MainContent-left">
-          <p className="MainContentLeft-title">Is it the</p>
-          <div className="MainContent-animation">
+        <div className="LandingPage-left">
+          <p className="LandingPage-title">Is it the</p>
+          <div className="LandingPage-animation">
             <span id="ani" className="animate-bottom">
               {h11}
             </span>
           </div>
-          <div className="MainContent-subTitle1">
-            <h3 className="subTitle">
+          <div className="LandingPage-subTitle1">
+            <h3 className="LandingPage-subTitle">
               Free end-to-end monitoring for your entire stack in 5 <br />
               minutes or less
             </h3>
           </div>
-          <div className="form">
-            <form className="MainContent-inputForm">
+          <div className="LandingPage-form">
+            <form className="LandingPage-inputForm">
               <div>
                 <input
                   type="text"
                   placeholder="Name"
-                  className="MainContent-nameInput"
+                  className="LandingPage-nameInput"
                 />
               </div>
               <div>
                 <input
                   type="email"
                   placeholder="Company Email"
-                  className="MainContent-emailInput"
+                  className="LandingPage-emailInput"
                 />
               </div>
-              <button className="MainContent-GetStart">Get Start Free</button>
+              <button className="LandingPage-GetStart">Get Start Free</button>
             </form>
           </div>
-          <div className="MainContent-Detail">
+          <div className="LandingPage-Detail">
             <p>
-              By signing up you're agreeing to{" "}
-              <span className="underline">
+              By signing up you're agreeing to
+              <span className="LandingPage-underline">
                 Terms
                 <br /> of Service
               </span>
               <span> and</span>
-              <span className="underline"> Service Privacy Notice.</span>
+              <span className="LandingPage-underline">
+                {" "}
+                Service Privacy Notice.
+              </span>
             </p>
           </div>
           <div>
-            <p className="MainContent-creditCard">
+            <p className="LandingPage-creditCard">
               100GB + 1 user free.Forever.
               <br />
               No credit card required.

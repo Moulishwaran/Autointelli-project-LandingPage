@@ -4,7 +4,9 @@ import "./mainSub.css";
 const MainSub = () => {
   return (
     <div className="MainSub">
-      <h1 className="MainSub-MainTitle">Why Autointelli?</h1>
+      <h1 className="MainSub-MainTitle">
+        <span className="MainSub-Why">Why</span> Autointelli?
+      </h1>
       <div className="line"></div>
       <div className="content">
         <h1 className="MainSub-RealTitle">
