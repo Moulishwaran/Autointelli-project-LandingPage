@@ -6,37 +6,39 @@
 .MainSub-MainTitle {
     font-size: 50px;
     font-family: "Roboto", sans-serif;
-    bottom: 50px;
+    bottom: 20px;
     position: relative;
 }
 
 
-.line {
+.ManiSubLine {
     background-color: #ff40b4;
-    width: 60%;
+    width: 75%;
     height: 0.1px;
     position: relative;
-    right: 400px;
-    top: 20px;
+    right: 550px;
+    top: 70px;
 }
 
-.lines {
+.MainSubLines {
     background-color: #ff40b4;
-    width: 60%;
+    width: 75%;
     height: 0.1px;
     position: relative;
     top: 150px;
-    right: 400px;
+    right: 550px;
 }
 
 .MainSub-ContentWrapperRight {
     position: relative;
-    top: 15px;
+    top: 35px;
+
 }
 
 .MainSub-ContentWrapperLeft {
     position: relative;
     bottom: 25px;
+
 }
 
 .content {
@@ -44,26 +46,30 @@
     top: 120px;
     right: 400px;
     font-family: "Roboto", sans-serif;
+    width: 500px;
 }
 
 .MainSub-RealTitle {
     font-size: 18px;
     position: relative;
     bottom: 18px;
+    right: 135px;
 }
 
 .MainSub-Correlate {
     position: relative;
     bottom: 1px;
+    right: 135px;
     line-height: 25px;
+
 }
 
 .orangeLine {
     background-color: #ff8300;
-    width: 60%;
+    width: 69%;
     height: 1px;
     position: relative;
-    bottom: 120px;
+    bottom: 162px;
     left: 250px;
 }
 
@@ -72,28 +78,29 @@
     bottom: 60px;
     font-family: "Roboto", sans-serif;
     margin-left: 250px;
+    width: 500px;
 }
 
 .MainSub-RealTitles {
     font-size: 18px;
     width: 400px;
     position: relative;
-    top: 20px;
+    bottom: 75px;
 }
 
 .MainSub-Correlates {
     position: relative;
-    top: 40px;
+    bottom: 60px;
     line-height: 25px;
 
 }
 
 .orangeLines {
     background-color: #ff8300;
-    width: 60%;
-    height: 1px;
+    width: 69%;
+    height: 0.1px;
     position: relative;
-    top: 15px;
+    bottom: 80px;
     left: 250px;
 }
 
@@ -102,18 +109,22 @@
     top: 200px;
     right: 400px;
     font-family: "Roboto", sans-serif;
+    width: 670px;
 }
 
 .MainSub-RealTitle1 {
     font-size: 18px;
     position: relative;
     bottom: 30px;
+    right: 135px;
+
 }
 
 .MainSub-Correlate1 {
     position: relative;
     bottom: 10px;
     line-height: 25px;
+    right: 135px;
 }
 
 .MainSub-contents2 {
@@ -121,18 +132,19 @@
     top: 10px;
     font-family: "Roboto", sans-serif;
     margin-left: 250px;
+    width: 500px;
 }
 
 .MainSub-RealTitles2 {
     font-size: 18px;
     position: relative;
-    top: 20px;
+    bottom: 70px;
 
 }
 
 .MainSub-Correlates2 {
     position: relative;
-    top: 40px;
+    bottom: 55px;
     line-height: 25px;
 }
 
@@ -144,18 +156,8 @@
         left: 80px;
     }
 
-    .line {
-        background-color: #ff40b4;
-        width: 450px;
-        height: 0.1px;
-        position: relative;
-        top: 45px;
-    }
-
-    .lines {
-        background-color: #ff40b4;
-        width: 470px;
-        height: 0.1px;
+    .MainSub-MainTitle {
+        margin-top: 220px;
     }
 
     .MainSub-ContentWrapperLeft {
@@ -164,20 +166,26 @@
 
     .MainSub-ContentWrapperRight {
         display: grid;
-        position: relative;
-        top: 1px;
     }
 
     .MainSub-RealTitles {
         position: relative;
-        bottom: 50px;
+        bottom: 70px;
+    }
+
+    .MainSubLines {
+        width: 670px;
+    }
+
+    .ManiSubLine {
+        width: 670px;
     }
 
     .orangeLine {
         width: 450px;
         height: 0.1px;
         position: relative;
-        bottom: 100px;
+        bottom: 150px;
     }
 
     .orangeLines {
@@ -190,29 +198,25 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width:1024px) {
+
+    .MainSub {
+        margin-top: 230px;
+    }
+
     .MainSub-Why {
         position: relative;
-        bottom: 5px;
+        top: 20px;
         left: 65px;
+    }
+
+    .MainSub-MainTitle {
+        margin-top: 100px;
     }
 
     .MainSub-MainTitle {
         position: relative;
         bottom: 25px;
-    }
-
-    .line {
-        background-color: #ff40b4;
-        width: 450px;
-        height: 0.1px;
-        position: relative;
-        top: 45px;
-    }
-
-    .lines {
-        background-color: #ff40b4;
-        width: 470px;
-        height: 0.1px;
+        margin-top: 190px;
     }
 
     .MainSub-ContentWrapperLeft {
@@ -227,49 +231,60 @@
 
     .MainSub-RealTitles {
         position: relative;
-        bottom: 50px;
+        bottom: 60px;
+    }
+
+    .ManiSubLine {
+        width: 670px;
+        position: relative;
+        top: 50px;
+    }
+
+    .MainSubLines {
+        width: 670px;
     }
 
     .orangeLine {
-        width: 450px;
+        width: 550px;
         height: 0.1px;
         position: relative;
-        bottom: 100px;
+        bottom: 140px;
+    }
+
+    .MainSub-RealTitles {
+        margin-top: 20px;
+        position: relative;
+        bottom: 70px;
     }
 
     .orangeLines {
-        width: 450px;
+        width: 550px;
         height: 0.1px;
         position: relative;
-        bottom: 100px;
+        bottom: 80px;
     }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width:1440px) {
+
+    .MainSub {
+        margin-top: 250px;
+    }
+
     .MainSub-Why {
         position: relative;
         bottom: 4px;
         left: 10px;
     }
 
+    .MainSub-Correlates {
+        margin-top: 10px;
+    }
+
     .MainSub-MainTitle {
         position: relative;
         bottom: 25px;
-    }
-
-    .line {
-        background-color: #ff40b4;
-        width: 450px;
-        height: 0.1px;
-        position: relative;
-        top: 45px;
-    }
-
-    .lines {
-        background-color: #ff40b4;
-        width: 470px;
-        height: 0.1px;
     }
 
     .MainSub-ContentWrapperLeft {
@@ -279,25 +294,33 @@
     .MainSub-ContentWrapperRight {
         display: grid;
         position: relative;
-        top: 1px;
+        top: 25px;
     }
 
     .MainSub-RealTitles {
         position: relative;
-        bottom: 50px;
+        bottom: 60px;
+    }
+
+    .MainSubLines {
+        width: 680px;
+    }
+
+    .ManiSubLine {
+        width: 680px;
     }
 
     .orangeLine {
-        width: 450px;
+        width: 550px;
         height: 0.1px;
         position: relative;
-        bottom: 100px;
+        bottom: 140px;
     }
 
     .orangeLines {
-        width: 450px;
+        width: 550px;
         height: 0.1px;
         position: relative;
-        bottom: 100px;
+        bottom: 85px;
     }
 }

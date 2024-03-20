@@ -41,17 +41,20 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="FooterList">
-          <div className="FooterProduct">
-            <h3 className="FooterHeading">Product</h3>
-          </div>
-          <div className="FooterLinkslist">
-            <ul className="FooterLinks">
-              <li>Features</li>
-              <li>Integration</li>
-              <li>Changelog</li>
-              <li>Roadmap</li>
-            </ul>
+          <div className="FooterHeading">
+            <div className="FooterProduct">
+              <h3 className="FooterHeading">Product</h3>
+            </div>
+            <div className="FooterLinkslist">
+              <ul className="FooterLinks">
+                <li>Features</li>
+                <li>Integration</li>
+                <li>Changelog</li>
+                <li>Roadmap</li>
+              </ul>
+            </div>
           </div>
 
           <div className="FooterCompany">
@@ -92,7 +95,7 @@ const Footer = () => {
           </div>
 
           <div className="Footer-HorizandleLine">
-            <hr />
+            <hr className="FooterHorizontalLine1" />
             <div className="Footer-TermService">
               <p>Term Of Services</p>
               <p>Policy Service</p>

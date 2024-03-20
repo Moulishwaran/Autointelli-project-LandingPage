@@ -9,8 +9,8 @@ body {
 
 .LandingPage-bgImage {
     color: aliceblue;
-    width: 1520px !important;
-    height: 100vh !important;
+    width: 1570px;
+    height: 100vh;
 }
 
 .LandingPage-bgImage::before {
@@ -29,7 +29,7 @@ body {
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 720px;
     transform: translate(-50%, -50%);
     color: #ffffff;
 }
@@ -166,7 +166,7 @@ body {
 
 .LandingPage-GetStart {
     margin-left: 10px;
-    background-color: #FF7A00;
+    background-color: #0F629E;
     width: 180px;
     height: 70px;
     border-radius: 7px;

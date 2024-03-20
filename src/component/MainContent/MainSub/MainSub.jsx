@@ -8,17 +8,18 @@ const MainSub = () => {
         <span className="MainSub-Why">Why</span> Autointelli?
       </h1>
       <div className="MainSub-ContentWrapperLeft">
-        <div className="line"></div>
+        <div className="ManiSubLine"></div>
         <div className="content">
           <h1 className="MainSub-RealTitle">
             Real, actionable insights into your stack
           </h1>
           <p className="MainSub-Correlate">
             Correlate issues across your stack. Debug and collaborate from your
-            IDE.
+            IDE. Real, actionable insights into your stack Real, actionable
+            insights into your stack Real actionable insights into your stack
           </p>
         </div>
-        <div className="lines"></div>
+        <div className="MainSubLines"></div>
 
         <div className="MainSub-content1">
           <h1 className="MainSub-RealTitle1">
@@ -26,6 +27,8 @@ const MainSub = () => {
           </h1>
           <p className="MainSub-Correlate1">
             Our Instant Observability quickstarts bundle everything you need.
+            Our Instant Observability <br /> quickstarts bundle everything you
+            need. Instant Observability of the you need.
           </p>
         </div>
       </div>
@@ -37,8 +40,9 @@ const MainSub = () => {
             Troubleshoot infrastructure before. Not after.
           </h1>
           <p className="MainSub-Correlates">
-            Find root cause faster. Correlate infrastructure health with
-            performance and customer
+            Find root cause faster. Correlate infrastructure health with to the
+            in performance and customer Real, actionable insights into your
+            stack Real, actionable insights into your stack
           </p>
         </div>
         <div className="orangeLines"></div>
@@ -49,7 +53,9 @@ const MainSub = () => {
           </h1>
           <p className="MainSub-Correlates2">
             Integrate easily with leading cloud providers. New Relic is
-            committed
+            committed easily with leading cloud providers. New Relic is
+            committed actionable insights into your stack Real,insights into
+            your stack
           </p>
         </div>
       </div>
