@@ -205,8 +205,8 @@
 
     .MainSub-Why {
         position: relative;
-        top: 20px;
-        left: 65px;
+        bottom: 4px;
+        left: 12px;
     }
 
     .MainSub-MainTitle {
@@ -266,16 +266,16 @@
 }
 
 
-@media only screen and (min-width: 1025px) and (max-width:1440px) {
+@media only screen and (min-width: 1024px) and (max-width:1440px) {
 
     .MainSub {
-        margin-top: 250px;
+        margin-top: 120px;
     }
 
     .MainSub-Why {
         position: relative;
-        bottom: 4px;
-        left: 10px;
+        top: 0px;
+        left: 1px;
     }
 
     .MainSub-Correlates {
@@ -294,7 +294,7 @@
     .MainSub-ContentWrapperRight {
         display: grid;
         position: relative;
-        top: 25px;
+        top: 28px;
     }
 
     .MainSub-RealTitles {
@@ -304,17 +304,20 @@
 
     .MainSubLines {
         width: 680px;
+
     }
 
     .ManiSubLine {
         width: 680px;
+        position: relative;
+        bottom: 15px;
     }
 
     .orangeLine {
         width: 550px;
         height: 0.1px;
         position: relative;
-        bottom: 140px;
+        bottom: 150px;
     }
 
     .orangeLines {

@@ -5,7 +5,7 @@ const MainSub = () => {
   return (
     <div className="MainSub">
       <h1 className="MainSub-MainTitle">
-        <span className="MainSub-Why">Why</span> Autointelli?
+        <span className="MainSub-Why">Why </span> Autointelli?
       </h1>
       <div className="MainSub-ContentWrapperLeft">
         <div className="ManiSubLine"></div>
